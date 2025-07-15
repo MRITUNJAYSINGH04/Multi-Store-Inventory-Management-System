@@ -1,138 +1,164 @@
-Project Overview
-A powerful and scalable multi-store inventory management system built using PHP (CodeIgniter) and MySQL. This system allows centralized control of inventory, sales, purchases, customers, and reporting across multiple store locations. It is designed for businesses such as retail chains, wholesalers, and distributors.
+✅ Overview
+A complete inventory and store management solution for multiple store locations.
 
-Key Features
+Built using PHP (CodeIgniter Framework) and MySQL.
 
-Centralized Multi-Store Management
+Ideal for retail chains, wholesalers, and distributed businesses.
 
-Real-Time Stock Tracking
+🛠️ Key Features
+✅ Centralized management of multiple stores
 
-Sales and Purchase Tracking
+📦 Real-time inventory & stock tracking
 
-Customer and Supplier Management
+💰 Sales and purchase order tracking
 
-Financial Reporting (Profit/Loss, Trial Balance, Cash Flow)
+👥 Customer and supplier management
 
-Return Processing
+📈 Financial reporting (Profit/Loss, Trial Balance, Cash Flow)
 
-User Role Management (Super Admin, Store Manager, etc.)
+🔁 Sales & purchase return handling
 
-Barcode Scanning and Label Printing
+🔐 User role-based access control
 
-Reporting and Analytics
+🧾 Barcode scanning and label printing
 
-Modules Included
+📊 Advanced analytics and reporting dashboard
 
-Dashboard (Admin, Store Manager, Pricing, Purchase User)
+🧩 Modules Included
+🔹 Admin Dashboard (Super Admin, Store Admin, etc.)
 
-Chart of Accounts, Vouchers (Debit, Credit, Journal, Contra)
+🔹 Chart of Accounts & Financial Vouchers
 
-Sales and Purchase Orders
+🔹 Purchase & Sales Order Management
 
-Stock Management and Stock Movement
+🔹 Stock Monitoring & Movement
 
-Return Management
+🔹 Product Catalog (Category, Brand, Model, Unit)
 
-Store, Supplier, Customer Management
+🔹 Return Processing
 
-Product Master (Category, Brand, Model, Units)
+🔹 Reporting: Sales, Stock, Lease, Recovery
 
-Reports (Stock, Sales, Financial, Recovery)
+🔹 Store, Supplier, Customer Management
 
-Role & Permission Management
+🔹 User Roles & Permissions
 
-Backup & Language Settings
+🔹 Backup and Language Settings
 
-Application Settings
+🔹 Application Settings (Logo, Alignment, etc.)
 
-Installation Instructions (Localhost)
+💻 Technologies Used
+✅ PHP 7.x or above (CodeIgniter)
 
-Install XAMPP or WAMP
+✅ MySQL 5.5+
+
+✅ HTML, CSS, JS, Bootstrap, jQuery, Ajax
+
+✅ Compatible with XAMPP / WAMP / LAMP / MAMP
+
+📂 Files Included
+✅ Full PHP Source Code
+
+✅ CodeIgniter Framework
+
+✅ SQL Database File
+
+✅ Installation Wizard
+
+✅ Complete Documentation
+
+🌐 Hosting Requirements
+Apache / Nginx / IIS
+
+PHP 5.4 or higher
+
+MySQL 5.5 or higher
+
+Required PHP extensions:
+
+OpenSSL
+
+PDO
+
+MCrypt
+
+⚙️ Installation Guide (Localhost)
+Install XAMPP/WAMP and start Apache & MySQL
 
 Copy M-Store folder to htdocs/
 
-Access localhost/M-Store/install in your browser
+Open localhost/M-Store/install in browser
 
-Enter database info (Database name, user: root, password: blank)
+Enter:
 
-Wait for installation to complete
+DB name
 
-Login with: admin@example.com / 12345 and change credentials
+Username: root
 
-Installation Instructions (Web Hosting)
+Password: (leave blank)
 
-Upload the zip file via cPanel or FTP
+Complete setup and login
 
-Extract it and move files to public_html or desired folder
+Default credentials:
+
+Email: admin@example.com
+
+Password: 12345
+
+🌍 Installation Guide (Web Hosting)
+Upload the .zip file via cPanel or FTP
+
+Extract files into public_html/
 
 Visit http://yourdomain.com/install
 
-Follow on-screen steps to configure the database
+Follow installer steps to configure database
 
-Launch the application and log in
+Login and change default credentials
 
-Server Requirements
+🔁 CRON Automation Setup
+General CRON: runs daily for invoice automation
 
-PHP 5.4 or greater
+Email piping CRON (optional): for auto support ticket generation
 
-MySQL 5.5 or greater
+Recommended via cPanel
 
-Apache/Nginx/IIS
+🎯 Benefits
+🚀 Streamlined inventory processes
 
-Extensions: OpenSSL, PDO, MCrypt
+🔍 Improved stock accuracy
 
-CRON Job Automation
+📈 Real-time visibility & insights
 
-Daily cron for invoice generation
+💼 Scalable for growing business
 
-Optional email piping cron for support tickets
+💸 Reduced operational costs
 
-Benefits
+📤 Export Features
+Export reports as PDF or Excel
 
-Enhanced efficiency in stock and order processing
+API-ready for mobile app integration
 
-Scalable to multiple branches
+POS module included
 
-Real-time insights and financial visibility
+❓ FAQs
+✅ Supports multi-currency? → Yes
 
-Supports multiple users and permissions
+✅ Is it customizable? → Yes, it's PHP-based
 
-Export reports to PDF/Excel
+✅ POS system included? → Yes
 
-Demo Credentials
-Username: admin@example.com
-Password: 12345
+✅ Can I export reports? → Yes
 
-Files Included
+✅ Mobile App support? → Extendable via APIs
 
-PHP Source Code
-
-SQL File
-
-Full Documentation
-
-Installer
-
-CodeIgniter Framework
-
-FAQs
-
-Supports multiple currencies
-
-Fully customizable (built in PHP)
-
-Has built-in POS system
-
-Exportable reports
-
-Can be extended for mobile apps
-
-Recommended For
-
+👨‍💼 Recommended For
 Retail Chains
-
-Warehouses
 
 Distributors
 
-Small to Medium Enterprises
+Warehouses
+
+Multi-location Shops
+
+Small & Medium Businesses
